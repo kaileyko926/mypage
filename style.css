@@ -1,0 +1,53 @@
+body {
+  background-color: antiquewhite;
+}
+.profile {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100%;
+
+  border: 2px solid white;
+
+  background-image: url(몽실.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  font-size: 23px;
+  margin-top: 30px;
+}
+.sub {
+  margin-top: 0px;
+}
+
+.wrap {
+  width: 300px;
+  margin: 30px auto 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap > a {
+  width: 500px;
+  height: 60px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 3px 3px 5px 0px grey;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap > a:hover {
+  background-color: #f2f2f2;
+}
